@@ -92,7 +92,8 @@ Allez dans les option share du dossier « Documents_Entreprise » et creer les
 
 
 8. Teste l'accès depuis le poste client avec différents comptes utilisateurs
-9. 
+
+
 Test avec [wilder.rh@wilder.lan](mailto:wilder.rh@wilder.lan "mailto:wilder.rh@wilder.lan")
 
 
