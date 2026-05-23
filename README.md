@@ -1,19 +1,19 @@
 # Partage-de-Fichiers---Windows
 
-Procédure pour la configuration et les testing de partage de fichiers
+### Procédure pour la configuration et les testing de partage de fichiers
 
 
 1. Installe le rôle Serveur de fichiers
 
 
-![[PartageDeFichier-Windows-1.png]](
+![[PartageDeFichier-Windows-1.png]](Ressources/PartageDeFichier-Windows-1.png)
 
 
 
 2. Crée un dossier "Documents_Entreprise" à la racine du disque C:
 
 
-![[PartageDeFichier-Windows-2.png]](
+![[PartageDeFichier-Windows-2.png]](Ressources/PartageDeFichier-Windows-2.png)
 
 
 3. Configure un partage nommé "Docs" pour ce dossier
@@ -21,7 +21,7 @@ Procédure pour la configuration et les testing de partage de fichiers
 Clique droit sur le dossier « Documents_Entreprise », aller dans propriété, puis propriété avancée et changer le share name en « Docs ».
 
 
-![[PartageDeFichier-Windows-3.png]](
+![[PartageDeFichier-Windows-3.png]](Ressources/PartageDeFichier-Windows-3.png)
 
 
 
@@ -33,11 +33,11 @@ Clique droit sur le dossier « Documents_Entreprise », aller dans propriété
 Allez dans les option share du dossier « Documents_Entreprise » et creer les trois sous dossiers comme demandé :
 
 
-![[PartageDeFichier-Windows-4.png]](
+![[PartageDeFichier-Windows-4.png]](Ressources/PartageDeFichier-Windows-4.png)
 
 
 
-![[PartageDeFichier-Windows-4.1.png]](
+![[PartageDeFichier-Windows-4.1.png]](Ressources/PartageDeFichier-Windows-4.1.png)
 
 
 
@@ -50,7 +50,7 @@ Allez dans les option share du dossier « Documents_Entreprise » et creer les
     - Le groupe "RH" ait un accès en lecture/écriture au dossier "RH"
 
 
-![[PartageDeFichier-Windows-5.1.png]](
+![[PartageDeFichier-Windows-5.1.png]](Ressources/PartageDeFichier-Windows-5.1.png)
 
 
 
@@ -58,28 +58,28 @@ Allez dans les option share du dossier « Documents_Entreprise » et creer les
 
 
 
-![[PartageDeFichier-Windows-5.2.png]](
+![[PartageDeFichier-Windows-5.2.png]](Ressources/PartageDeFichier-Windows-5.2.png)
 
 
 
     - Le groupe "Direction" ait un accès en lecture/écriture à tous les dossiers
 
 
-![[PartageDeFichier-Windows-5.3.png]](
+![[PartageDeFichier-Windows-5.3.png]](Ressources/PartageDeFichier-Windows-5.3.png)
 
 
 
     - Tous les utilisateurs du domaine aient un accès en lecture seule au dossier "Documents_Entreprise"
 
 
-![[PartageDeFichier-Windows-5.4.png]](
+![[PartageDeFichier-Windows-5.4.png]](Ressources/PartageDeFichier-Windows-5.4.png)
 
 
 6. Utilise PowerShell pour lister tous les partages sur le serveur
 
 
 
-![[PartageDeFichier-Windows-6.png]](
+![[PartageDeFichier-Windows-6.png]](Ressources/PartageDeFichier-Windows-6.png)
 
 
 
@@ -87,11 +87,12 @@ Allez dans les option share du dossier « Documents_Entreprise » et creer les
 7. Sur un poste client Windows 10, configure un lecteur réseau pointant vers ce partage via PowerShell
 
 
-![[PartageDeFichier-Windows-7vrai.png]](
+![[PartageDeFichier-Windows-7vrai.png]](Ressources/PartageDeFichier-Windows-7vrai.png)
 
 
 
 8. Teste l'accès depuis le poste client avec différents comptes utilisateurs
+9. 
 Test avec [wilder.rh@wilder.lan](mailto:wilder.rh@wilder.lan "mailto:wilder.rh@wilder.lan")
 
 
